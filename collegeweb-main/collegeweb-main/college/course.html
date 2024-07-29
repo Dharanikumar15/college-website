@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ncas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="contect.html">CONTECT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>COURSES</h1>
+    </section>
+
+    <section class="course">
+        <h1>COURSE</h1>
+        <p>course completed a state-of-the-art commercial complex, featuring modern amenities, sustainable design, and exceptional craftsmanship.
+
+        </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>BEGINERS</h3>
+                <p>For those just starting out, college courses typically focus on providing a solid foundation in the subject. These beginner-level courses include titles such as "Introduction," </p>
+ 
+ 
+             </div>
+             <div class="course-col">
+                <h3>INTERMIDATE</h3>
+                <p>As students gain more knowledge and experience, they move on to intermediate-level courses. These often have titles like "Intermediate," </p>
+             </div>
+             <div class="course-col">
+                <h3>ADVANCE</h3>
+                <p>For students who have developed a strong understanding of the subject and are looking to specialize, advanced courses are available. </p>
+             </div>
+        </div>
+    </section>
+
+
+    
+
+
+    <section class="facilities">
+        <h1>ABOUT US</h1>
+        <p>ncas has Modern equipment, Skilled labor, Quality materials, Timely completion, Safety protocols, Customized designs, Client support, Sustainable practices, Cost efficiency, Professional supervision.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa fa-heart-o"></i> Ashwin</p>
+    </section>
+
+    <!-- JavaScript -->
+
+    
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
+ 

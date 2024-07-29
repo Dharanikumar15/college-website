@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ncas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="contect.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CONTACT US</h1>
+    </section>
+
+   <section class="contact-us">
+         <div class="row">
+            <div class="contact-col"></div>
+               <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Avadi Road, pattabiram</h5>
+                    <p>Chennai, Tamil Nadu, India</p>
+                </span>
+               </div>
+               <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 99220701033</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+               </div>
+               <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>ncas@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+               </div>
+            <div class="contact-col"></div>
+         </div>
+
+   </section>
+
+    
+
+
+    <section class="facilities">
+        <h1>ABOUT US</h1>
+        <p>National College of Arts and Science was established in 2005 under the All India Islamic Educational Trust (AIIET). It is a modern, friendly college affiliated to Calicut University.The college has a close and developing relationship with all sections of the community and enjoys the support and encouragement of professional, commercial and industrial organisations.
+
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa fa-heart-o"></i> Ashwin</p>
+    </section>
+
+    <!-- JavaScript -->
+
+    
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
+ 
